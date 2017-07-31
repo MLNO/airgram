@@ -1,0 +1,151 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    mavenCentral()
+}
+def RELEASE_STORE_PASSWORD = "332233"
+def RELEASE_KEY_ALIAS = "hamzad"
+def RELEASE_KEY_PASSWORD = "332233"
+dependencies {
+    compile 'com.android.support:support-v4:23.0.0'
+    compile 'com.google.android.gms:play-services-maps:8.4.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
+    //compile 'com.google.android.gms:play-services-places:8.4.0'
+    compile 'com.onesignal:OneSignal:3.+@aar'
+    //compile 'me.cheshmak:analytics:1.+'
+    compile files('libs/gson-2.8.0.jar')
+    compile files('libs/tapsell-android-3.0.19.jar')
+    compile 'net.hockeyapp.android:HockeySDK:4.0.1'
+    compile 'com.googlecode.mp4parser:isoparser:1.0.6'
+    compile 'com.android.support:design:23.0.1'
+    compile 'com.android.support:cardview-v7:23.0.0'
+    compile 'com.pavelsikun:vintage-chroma:1.5'
+    compile files('libs/picasso-2.5.2.jar')
+}
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    dexOptions {
+        jumboMode true
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+    useLibrary 'org.apache.http.legacy'
+    defaultConfig.applicationId = "ir.hamzad.telegram"
+
+
+    sourceSets.main {
+        jniLibs.srcDir 'libs'
+        jni.srcDirs = []
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("config/default.jks")
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+
+        release {
+            storeFile file("config/default.jks")
+            storePassword RELEASE_STORE_PASSWORD
+            keyAlias RELEASE_KEY_ALIAS
+            keyPassword RELEASE_KEY_PASSWORD
+        }
+    }
+
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+            signingConfig signingConfigs.debug
+            //applicationIdSuffix ".beta"
+        }
+
+        release {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        foss {
+            debuggable false
+            jniDebuggable false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    defaultConfig.versionCode = 10
+
+/*
+    sourceSets.debug {
+
+        manifest.srcFile 'config/debug/AndroidManifest.xml'
+    }
+
+    sourceSets.release {
+        manifest.srcFile 'config/release/AndroidManifest.xml'
+    }
+
+    sourceSets.foss {
+        manifest.srcFile 'config/foss/AndroidManifest.xml'
+    }
+    productFlavors {
+        x86 {
+            ndk {
+                abiFilter "x86"
+            }
+            versionCode = 2
+        }
+        arm {
+            ndk {
+                abiFilter "armeabi"
+            }
+            versionCode = 4
+        }
+        armv7 {
+            ndk {
+                abiFilter "armeabi-v7a"
+            }
+            versionCode = 1
+        }
+        fat {
+            versionCode = 3
+        }
+    }
+*/
+    applicationVariants.all { variant ->
+//        def abiVersion = variant.productFlavors.get(0).versionCode
+  //      variant.mergedFlavor.versionCode = defaultConfig.versionCode * 10 + abiVersion;
+    }
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 24
+        versionName '2.0'
+        multiDexEnabled true
+        manifestPlaceholders = [onesignal_app_id: "ff149498-5c9e-4837-b346-6eb0f86b74b7",
+                                // Project number pulled from dashboard, local value is ignored.
+                                onesignal_google_project_number: "142140046766"]
+
+    }
+}
+
+apply plugin: 'com.google.gms.google-services'

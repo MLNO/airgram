@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="24dp" android:paddingRight="24dp" >
+
+    <RelativeLayout android:layout_marginTop="16dp"
+        android:layout_width="match_parent" android:layout_marginBottom="8dp"
+        android:layout_height="wrap_content" android:id="@+id/gen1"
+        android:layout_gravity="center_horizontal">
+
+        <TextView android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Used Space:"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Files:"
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView android:textColor="#737373"
+            android:layout_width="wrap_content" android:gravity="right"
+            android:layout_height="wrap_content"
+            android:text="@string/Loading"
+            android:id="@+id/TextViewUsedSpace"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/textView"
+            android:layout_toEndOf="@+id/textView" />
+
+        <TextView android:textColor="#737373" android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Loading"
+            android:id="@+id/TextViewLength"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout android:background="@color/primary" android:visibility="visible"
+        android:layout_width="match_parent" android:id="@+id/sectioner" android:layout_below="@id/gen1"
+        android:layout_height="wrap_content">
+
+        <FrameLayout android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView android:text="@string/LocalVideoCache" android:textColor="#ffffff" android:id="@+id/TextViewCurrentSection"
+                android:layout_width="match_parent" android:padding="8dp" android:gravity="left"
+                android:layout_height="wrap_content" android:textStyle="bold"/>
+            <ImageView android:layout_gravity="right|center_vertical" android:layout_marginRight="8dp"
+                android:layout_width="wrap_content" android:src="@drawable/search_down"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <FrameLayout android:layout_marginTop="8dp" android:layout_below="@+id/sectioner"
+        android:layout_width="match_parent" android:visibility="visible"
+        android:layout_height="match_parent">
+        <include layout="@layout/document_select_layout"/>
+        <ProgressBar android:layout_gravity="center" android:indeterminate="true"
+            android:layout_width="wrap_content" android:id="@+id/loading"
+            android:layout_height="wrap_content"/>
+        <TextView android:layout_gravity="center" android:id="@+id/EmptyView"
+            android:layout_width="wrap_content" android:textColor="#000"
+            android:text="@string/Empty" android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <LinearLayout android:orientation="vertical" android:visibility="gone" android:background="@color/primary_dark"
+        android:layout_width="match_parent" android:layout_below="@+id/sectioner"
+        android:layout_height="wrap_content"
+        android:id="@+id/listItems">
+
+        <View android:background="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+        <TextView android:text="@string/LocalVideoCache" android:textColor="#ffffff" android:id="@+id/Videos"
+            android:layout_width="match_parent" android:padding="8dp" android:gravity="left|center_vertical"
+            android:layout_height="40dp" android:textStyle="bold"/>
+        <TextView android:text="@string/LocalAudioCache" android:textColor="#ffffff" android:id="@+id/Audios"
+            android:layout_width="match_parent" android:padding="8dp" android:gravity="left|center_vertical"
+            android:layout_height="40dp" android:textStyle="bold"/>
+        <TextView android:text="@string/LocalPhotoCache" android:textColor="#ffffff" android:id="@+id/Photos"
+            android:layout_width="match_parent" android:padding="8dp" android:gravity="left|center_vertical"
+            android:layout_height="40dp" android:textStyle="bold"/>
+        <TextView android:text="@string/LocalDocumentCache" android:textColor="#ffffff" android:id="@+id/Documents"
+            android:layout_width="match_parent" android:padding="8dp" android:gravity="left|center_vertical"
+            android:layout_height="40dp" android:textStyle="bold"/>
+        <TextView android:text="APK" android:textColor="#ffffff" android:id="@+id/Apk"
+            android:layout_width="match_parent" android:padding="8dp" android:gravity="left|center_vertical"
+            android:layout_height="40dp" android:textStyle="bold"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedAttribute"
+    android:enterFadeDuration="100"
+    android:exitFadeDuration="200">
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true">
+        <shape
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <solid android:color="#20000000"/>
+        </shape>
+    </item>
+    <item android:drawable="@android:color/transparent"/>
+</selector>

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    tools:context="adnotification.InterstitialAd">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/close"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:singleLine="true"
+            android:textSize="16sp"
+            android:text="Large Text"
+            android:id="@+id/t1"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp" />
+    </RelativeLayout>
+
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+       android:padding="8dp"
+       android:textSize="20sp"
+        android:text="Medium Text"
+        android:id="@+id/t2" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@drawable/rectt"
+        android:id="@+id/rec"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/ico" />
+    </RelativeLayout>
+
+</LinearLayout>

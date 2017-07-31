@@ -1,0 +1,23 @@
+-keep public class com.google.android.gms.* { public *; }
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+-dontwarn com.google.android.gms.**
+-dontwarn com.google.common.cache.**
+-dontwarn com.google.common.primitives.**
+-dontwarn com.googlecode.mp4parser.**
+-dontwarn com.squareup.picasso.**
+-keepattributes Signature
+-keepattributes *Annotation*
+-keepattributes EnclosingMethod
+-keep class sun.misc.Unsafe { *; }
+-keep class com.google.gson.stream.** { *; }
+-keep class com.google.gson.** { *; }
+-keepclassmembers enum * { *; }
+-keep class **.R$* { *; }
+-keep interface ir.tapsell.sdk.NoProguard
+-keep class * implements ir.tapsell.sdk.NoProguard { *; }
+-keep interface * extends ir.tapsell.sdk.NoProguard { *; }
+-keepnames class * extends android.app.Activity
+-dontwarn com.unity3d.player.**

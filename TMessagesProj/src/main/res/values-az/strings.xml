@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="AppName">EliGram</string>
+  <string name="LanguageName">Azərbaycan</string>
+  <string name="LanguageNameInEnglish">Azerbaijan</string>
+  <string name="LanguageCode">az</string>
+  <!--Persian Telegram info-->
+  <string name="ChitSettings">Persian Telegram seçənəkləri</string>
+  <string name="id">Id</string>
+  <string name="IdFinder">Id tap</string>
+  <string name="IdHelp">a–z 0–9 _\nMinimal uzunluğu 5 simvol</string>
+  <string name="Inviter">Çağıran</string>
+  <string name="Ghost">Ruh</string>
+  <string name="ShowTab">Show tabs</string>
+  <string name="ShowDot">Show dot for mutual contacts</string>
+  <string name="ShowInviter">Show inviter in group settings</string>
+  <string name="DefaultTab">Varsayılan sekme</string>
+  <string name="GhostModeEnabled">Ruh erjimi qaynaq süzgəci</string>
+  <string name="HideTypingState">Yazır gizlət</string>
+  <string name="Robots">Robotlar</string>
+  <string name="Channels">Kanallar</string>
+  <string name="Unreads">Oxunmamışlar</string>
+  <string name="All">Bütün</string>
+  <string name="Groups">Qruplar</string>
+  <string name="DialogWallpaper">Ilk səhifə arxa fonu</string>
+  <string name="StickerBigSize">Etiket qalereyası</string>
+  <string name="ConfirmSticker">Stiker göndərməzdən əvvəl təsdiq et</string>
+  <string name="StickerSuccessfullySaved">Stikerlər Qeyd et</string>
+  <string name="CantSaveSticker">Etiketi Qeyd edə bilməz</string>
+  <string name="FileExists">Fayl artıq mövcuddur</string>
+  <string name="DeleteSavedStickers">Qeyd edilən Etiketləri sil</string>
+  <string name="ContactUs">Contact us</string>
+  <string name="SendEmail">E-poçt göndər</string>
+  <string name="DeleteStickerAlert">Qalereyada Qeyd edilən bütün etiketləri silmək istədiyinizdən əminsinizmi</string>
+  <string name="HideStickers">Qalereyadan stikerləri gizlət</string>
+
+  <!--signin view-->
+  <string name="YourPhone">Sizin telefonunuz</string>
+  <string name="ChooseCountry">Ölkəni seçin</string>
+  <string name="WrongCountry">Ölkə kodu səhvdir</string>
+  <!--code enter view-->
+  <string name="YourCode">Sizin kodunuz</string>
+  <string name="SentSmsCode">Biz sizə aktivasiya kodunu qısa mesaj vasitəsi ilə göndərəcəyik.</string>
+  <string name="Calling">Sizə zəng edilir</string>
+  <string name="Code">Kod</string>
+  <string name="WrongNumber">Nömrə səhvdir?</string>
+  <string name="DidNotGetTheCode">Kodu əldə etmədiniz?</string>
+  <!--signup view-->
+  <string name="YourName">Adınız</string>
+  <string name="RegisterText">Adınızı və soyadınızı düzəldin</string>
+  <!--<string name="RegisterText">Set up your name and picture</string>-->
+  <string name="FirstName">Adınız (vacib)</string>
+  <string name="LastName">Soyadınız (istəyə görə)</string>
+  <string name="CancelRegistration">Qeydiyyatdan imtina et</string>
+  <!--chats view-->
+  <string name="Settings">Tənzimləmələr</string>
+  <string name="Contacts">Kontaktlar</string>
+  <string name="NewGroup">Yeni Qrup</string>
+  <string name="Yesterday">dünən</string>
+  <string name="NoResult">Nəticə yoxdur</string>
+  <string name="NoChats">İndilik söhbət yoxdur</string>
+  <string name="WaitingForNetwork">Əlaqə yaradılır ...</string>
+  <string name="Connecting">Qoşulur ...</string>
+  <string name="Updating">Yenilənir ...</string>
+  <string name="NewSecretChat">Yeni gizli söhbət</string>
+  <string name="EncryptionRejected">Gizli söhbətdən imtina edildi</string>
+  <string name="EncryptedChatStartedOutgoing">%s gizli söhbətə qoşuldu.</string>
+  <string name="EncryptedChatStartedIncoming">Siz gizli söhbətə qoşuldunuz.</string>
+  <string name="DeleteChat">Sil və çıx</string>
+  <string name="SelectChat">Söhbəti seç</string>
+  <!--channels-->
+  <!--broadcasts-->
+  <!--audio view-->
+  <!--documents view-->
+  <string name="SelectFile">Faylı seç</string>
+  <string name="UnknownError">Bilinməyən xəta</string>
+  <string name="AccessError">Giriş xətası</string>
+  <string name="NoFiles">Fayl yoxdur</string>
+  <string name="FileUploadLimit">Faylın həcmi %1$sdən böyük olmamalıdır</string>
+  <string name="NotMounted">Yaddaş daxil edilməyib</string>
+  <string name="UsbActive">USB köçürmə aktivdir</string>
+  <string name="InternalStorage">Daxili yaddaş</string>
+  <string name="ExternalStorage">Xarici yaddaş</string>
+  <string name="SdCard">SD kart</string>
+  <!--chat view-->
+  <string name="Invisible">görünməz</string>
+  <string name="Typing">yazır ...</string>
+  <string name="IsTyping"> yazır ...</string>
+  <string name="AreTyping"> yazırlar ...</string>
+  <string name="ChatTakePhoto">Şəkil çək</string>
+  <string name="ChatGallery">Qalereya</string>
+  <string name="ChatLocation">Mövqe</string>
+  <string name="ChatVideo">Video</string>
+  <string name="NoMessages">İndilik mesaj yoxdur ...</string>
+  <string name="ForwardedMessage">Yönləndirilmiş mesaj</string>
+  <string name="From">Kimdən </string>
+  <string name="Message">Mesaj</string>
+  <string name="EncryptedPlaceholderTitleIncoming">%s sizi gizli söhbətə dəvət etdi</string>
+  <string name="EncryptedPlaceholderTitleOutgoing">Siz %s gizli söhbətə dəvət etdiniz</string>
+  <string name="EncryptedDescriptionTitle">Gizli söhbətlər :</string>
+  <string name="EncryptedDescription4">Yönləndirməyə icazə vermə</string>
+  <string name="YouLeft">Siz bu qrupu tərk etdiniz</string>
+  <string name="DeleteThisGroup">Qrupu sil</string>
+  <string name="DeleteThisChat">Bu söhbəti sil</string>
+  <string name="ApplyLocalizationFile">Dil faylını yüklə</string>
+  <string name="UnsupportedAttachment">Dəstəklənməyən əlavə növü</string>
+  <!--notification-->
+  <string name="YouHaveNewMessage">Sizin yeni mesajınız var</string>
+  <string name="NotificationMessageNoText">%1$s sizə mesaj göndərdi</string>
+  <string name="NotificationMessagePhoto">%1$s sizə şəkil göndərdi</string>
+  <string name="NotificationMessageVideo">%1$s sizə video göndərdi</string>
+  <string name="NotificationMessageContact">%1$s sizinlə kontakt məlumatlarını paylaşdı</string>
+  <string name="NotificationMessageMap">%1$s sizə mövqe göndərdi</string>
+  <string name="NotificationMessageAudio">%1$s sizə səsyazısı göndərdi</string>
+  <string name="NotificationMessageGroupNoText">%1$s %2$s qrupuna mesaj göndərdi</string>
+  <string name="NotificationMessageGroupPhoto">%1$s %2$s qrupuna şəkil göndərdi</string>
+  <string name="NotificationMessageGroupVideo">%1$s %2$s qrupuna video göndərdi</string>
+  <string name="NotificationMessageGroupContact">%1$s %2$s qrupuna kontakt göndərdi</string>
+  <string name="NotificationMessageGroupMap">%1$s %2$s qrupuna mövqe göndərdi</string>
+  <string name="NotificationMessageGroupAudio">%1$s %2$s qrupuna səsyazısı göndərdi</string>
+  <string name="NotificationInvitedToGroup">%1$s sizi %2$s qrupuna dəvət etdi</string>
+  <string name="NotificationEditedGroupName">%1$s %2$s qrupunun adını dəyişdi</string>
+  <string name="NotificationContactJoined">%1$s Telegrama qoşuldu</string>
+  <string name="NotificationContactNewPhoto">%1$s profil şəklini yenilədi</string>
+  <!--contacts view-->
+  <string name="SelectContact">Kontaktı seç</string>
+  <string name="NoContacts">Kontakt yoxdur</string>
+  <string name="YesterdayAt">dünən saat </string>
+  <string name="Online">xətdə</string>
+  <string name="LastSeen">son dəfə</string>
+  <string name="LastSeenDate">son dəfə</string>
+  <string name="InviteFriends">Dostlarını dəvət et</string>
+  <!--group create view-->
+  <string name="SendMessageTo">Mesaj göndər</string>
+  <string name="EnterGroupNamePlaceholder">Qrup adını daxil et</string>
+  <string name="GroupName">Qrup adı</string>
+  <!--set admins view-->
+  <!--group info view-->
+  <string name="AddMember">Üzv əlavə et</string>
+  <string name="DeleteAndExit">Qrupu sil və tərk et</string>
+  <string name="Notifications">Bildirişlər</string>
+  <string name="KickFromGroup">Qrupdan kənarlaşdır</string>
+  <!--contact info view-->
+  <string name="ShareContact">Paylaş</string>
+  <string name="AddContact">Əlavə et</string>
+  <string name="BlockContact">Bloklaşdır</string>
+  <string name="EditContact">Düzəliş et</string>
+  <string name="DeleteContact">Sil</string>
+  <string name="StartEncryptedChat">Gizli söhbətə başla</string>
+  <string name="CreateEncryptedChatError">Səhv meydana çıxdı</string>
+  <string name="EncryptionKey">Kodlaşdırma açarı</string>
+  <string name="ShortMessageLifetimeForever">Sönülü</string>
+  <!--usernames :ramin-->
+    <string name="Username">İstifadəçi adı</string>
+    <string name="UsernamePlaceholder">İstifadəçi Adınız</string>
+    <string name="UsernameInUse">Bağışlayın, bu istifadəçi adı artıq görülür.</string>
+    <string name="UsernameInvalid">Bağışlayın, Bu istifadəçi adı səhvdir.</string>
+    <string name="UsernameInvalidStartNumber">Bağışlayın, İstifadəçi adı nömrə başlaya bilməz.</string>
+    <string name="UsernameEmpty">heç nə</string>
+    <string name="ErrorOccurred">Xəta baş verdi.</string>
+
+  <!--stickers view-->
+  <!--settings view-->
+  <string name="AskAQuestion">Sual ver</string>
+  <string name="EnableAnimations">Animasiyaları aç</string>
+  <string name="MessagePreview">Mesaja ilkin baxış</string>
+  <string name="Sound">Səs</string>
+  <string name="Vibrate">Vibrasiya</string>
+  <string name="NotificationsAndSounds">Bildirişlər və səslər</string>
+  <string name="BlockedUsers">Bloklanmış istifadəçilər</string>
+  <string name="NoSound">Səssiz</string>
+  <string name="Default">Varsayılan</string>
+  <string name="ChatBackground">Söhbət arxa fonu</string>
+  <string name="ContactJoined">Kontakt Telegrama qoşuldu</string>
+  <string name="Language">Dil</string>
+  <string name="AskButton">Könüllü ol</string>
+  <string name="TelegramFaqUrl">https://telegram.org/faq</string>
+  <string name="DeleteLocalization">Dili sil?</string>
+  <string name="IncorrectLocalization">Səhv dil faylı</string>
+  <string name="Enabled">Qoşulub</string>
+  <string name="Disabled">Söndürülüb</string>
+  <string name="NotificationsService">Bildirişlər xidməti</string>
+  <string name="SortBy">Sırala</string>
+  <string name="ImportContacts">Kontaktları idxal et</string>
+  <string name="SortFirstName">Adınız</string>
+  <string name="SortLastName">Soyadınız</string>
+  <string name="LedColor">LED rəngi</string>
+  <string name="NoPopup">Pop up yoxdur</string>
+  <!--cache view-->
+  <!--sessions view-->
+  <!--passcode view-->
+  <!--media view-->
+  <!--map view-->
+  <string name="Map">Xəritə</string>
+  <string name="Satellite">Peyk</string>
+  <string name="Hybrid">Hibrid</string>
+  <string name="MetersAway">m uzaqlıqda</string>
+  <string name="KMetersAway">km uzaqlıqda</string>
+  <!--photo gallery view-->
+  <string name="Gallery">Qalereya</string>
+  <string name="AllPhotos">Bütün şəkillə</string>
+  <string name="NoPhotos">Şəkil yoxdur</string>
+  <!--password view-->
+  <!--privacy settings-->
+  <!--edit video view-->
+  <!--bot-->
+  <!--button titles-->
+  <string name="Next">Sonrakı</string>
+  <string name="Back">Geri</string>
+  <string name="Done">Oldu</string>
+  <string name="Open">Aç</string>
+  <string name="Cancel">İmtina et</string>
+  <string name="Add">Əlavə et</string>
+  <string name="Edit">Düzəliş et</string>
+  <string name="Send">Göndər</string>
+  <string name="Call">Zəng et</string>
+  <string name="Copy">Kopyala</string>
+  <string name="Delete">Sil</string>
+  <string name="Forward">Yönləndir</string>
+  <string name="Retry">Yenidən cəhd et</string>
+  <string name="FromCamera">Kamera ilə</string>
+  <string name="FromGalley">Qalereyadan</string>
+  <string name="DeletePhoto">Şəkili sil</string>
+  <string name="Set">Quraşdır</string>
+  <string name="OK">Oldu</string>
+  <!--messages-->
+  <string name="ActionKickUser">un1 un2ni xaric etdi</string>
+  <string name="ActionAddUser">un1 un2ni əlavə etdi</string>
+  <string name="ActionRemovedPhoto">un1 qrup şəklini sildi</string>
+  <string name="ActionChangedPhoto">un1 qrup şəklini dəyişdirdi</string>
+  <string name="ActionChangedTitle">un1 qrup adını un2 olaraq dəyişdirdi</string>
+  <string name="ActionCreateGroup">un1 qrup yaratdı</string>
+  <string name="ActionYouKickUser">Siz un2ni xaric etdiniz</string>
+  <string name="ActionYouAddUser">Siz un2ni əlavə etdiniz</string>
+  <string name="ActionYouRemovedPhoto">Siz qrup şəklini sildiniz</string>
+  <string name="ActionYouChangedPhoto">Siz qrup şəklini dəyişdirdiniz</string>
+  <string name="ActionYouChangedTitle">Siz qrupun adını un2 olaraq dəyişdirdiniz</string>
+  <string name="ActionYouCreateGroup">Siz qurup yaratdınız</string>
+  <string name="ActionKickUserYou">un1 sizi kənarlaşdırdı</string>
+  <string name="ActionAddUserYou">un1 sizi əlavə etdi</string>
+  <string name="AttachPhoto">Şəkil</string>
+  <string name="AttachVideo">Video</string>
+  <string name="AttachLocation">Mövqe</string>
+  <string name="AttachContact">Kontakt</string>
+  <string name="AttachAudio">Səsyazısı</string>
+  <string name="FromYou">Siz</string>
+  <!--Alert messages-->
+  <string name="InvalidPhoneNumber">Nömrə səhvdir</string>
+  <string name="CodeExpired">Kodun istifadə müddəti bitib, xahiş edirik yenidən daxil olun</string>
+  <string name="FloodWait">Bir çox dəfə cəhd edildi, xahiş edirik daha sonra yenidən yoxlayın</string>
+  <string name="InvalidCode">Kod səhvdir</string>
+  <string name="InvalidFirstName">Ad səhvdir</string>
+  <string name="InvalidLastName">Soyad səhvdir</string>
+  <string name="Loading">Yüklənir ...</string>
+  <string name="NoPlayerInstalled">Sizin video oynadıcınız yoxdur, xahiş edirik bir proqram qurasınız.</string>
+  <string name="InviteUser">Bu istifadəçi Telegram istifadə etmir, dəvətnamə göndərirsiniz?</string>
+  <string name="AreYouSure">Əminsiniz?</string>
+  <string name="ForwardMessagesTo">Mesajı  %1$sə yönləndirək?</string>
+  <!--permissions-->
+  <!--Intro view-->
+  <string name="Page1Title">Telegram</string>
+  <string name="Page2Title">Sürətli</string>
+  <string name="Page3Title">Pulsuz</string>
+  <string name="Page4Title">Təhlükəsiz</string>
+  <string name="Page5Title">Güclü</string>
+  <string name="Page6Title">Bulud texnologiyası ilə</string>
+  <string name="Page7Title">Şəxsi</string>
+  <string name="StartMessaging">Mesajlaşmağa başla</string>
+  <!--plural-->
+  <string name="Members_one">%1$d üzv</string>
+  <string name="Members_two">%1$d üzv</string>
+  <string name="Members_few">%1$d üzv</string>
+  <string name="Members_many">%1$d üzv</string>
+  <string name="Members_other">%1$d üzv</string>
+  <string name="AndMoreTyping_zero">və %1$d nəfər yazır</string>
+  <string name="AndMoreTyping_one">və %1$d nəfər yazır</string>
+  <string name="AndMoreTyping_two">və %1$d nəfər yazır</string>
+  <string name="AndMoreTyping_few">və %1$d nəfər yazır</string>
+  <string name="AndMoreTyping_many">və %1$d nəfər yazır</string>
+  <string name="AndMoreTyping_other">və %1$d nəfər yazır</string>
+  <string name="NewMessages_zero">yeni mesaj yoxdur</string>
+  <string name="NewMessages_one">%1$d yeni mesaj</string>
+  <string name="NewMessages_two">%1$d yeni mesaj</string>
+  <string name="NewMessages_few">%1$d yeni mesaj</string>
+  <string name="NewMessages_many">%1$d yeni mesaj</string>
+  <string name="NewMessages_other">%1$d yeni mesaj</string>
+  <string name="messages_zero">mesaj yoxdur</string>
+  <string name="messages_one">%1$d mesaj</string>
+  <string name="messages_two">%1$d mesaj</string>
+  <string name="messages_few">%1$d mesaj</string>
+  <string name="messages_many">%1$d mesaj</string>
+  <string name="messages_other">%1$d mesaj</string>
+  <!--forwarded messages-->
+  <!--date formatters-->
+  <!--update text-->
+</resources>

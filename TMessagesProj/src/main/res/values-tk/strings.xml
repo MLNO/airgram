@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="AppName">Rastagram</string>
+  <string name="LanguageName">Türkmençe</string>
+  <string name="LanguageNameInEnglish">Turkmen</string>
+  <string name="LanguageCode">tk</string>
+  <!--chitchat info-->
+  <string name="ChitSettings">ChitChat Sazlamalar</string>
+  <string name="IdFinder">Id tap</string>
+  <string name="Inviter">Topara çagyran</string>
+  <string name="Ghost">Ruh</string>
+  <string name="ShowTab">Bökmeleri görkez</string>
+  <string name="DefaultTab">Bellenen bökme</string>
+  <string name="GhostModeEnabled">Ruh modini etginleştir</string>
+  <string name="HideTypingState">Yazyaniňi bildirma</string>
+  <string name="Robots">Robotlar</string>
+  <string name="Channels">Kanallar</string>
+  <string name="Unreads">Okulmadiglar</string>
+  <string name="All">Hemmesi</string>
+  <string name="Groups">Toparlar</string>
+  <string name="DialogWallpaper">Ilkinji sahypa arkasurati</string>
+  <string name="StickerBigSize">Stikerler galerisy</string>
+  <string name="ConfirmSticker">Stiker ugratmaka tassykla</string>
+  <string name="StickerSuccessfullySaved">Stikerler saklandy</string>
+  <string name="CantSaveSticker">Stikerler saklanmady</string>
+  <string name="FileExists">Faýl ozaldan bar</string>
+  <string name="DeleteSavedStickers">Galeridaki saklanan stikerleri poz</string>
+  <string name="ContactUs">Bize habarlaş</string>
+  <string name="SendEmail">Email ugrat</string>
+  <string name="DeleteStickerAlert">Hemme galeridaki saklanan stikerlri basyrjakmiň?</string>
+  <string name="HideStickers">Saklanan stikerleri galeriden gizle</string>
+
+  <!--signin view-->
+  <string name="YourPhone">Telefonyňyz</string>
+  <string name="ChooseCountry">Bir ýurt saýlaň</string>
+  <string name="WrongCountry">Ýalňyş ýurt kody</string>
+  <!--code enter view-->
+  <string name="YourCode">Koduňyz</string>
+  <string name="SentSmsCode">Işjeňleşdiriş koduny telefonyňyza SMS arkaly ugratdyk</string>
+  <string name="CallText">Size şu wagtdan jaň ederis: %1$d:%2$02d</string>
+  <string name="Calling">Jaň edýäris...</string>
+  <string name="Code">Kod</string>
+  <string name="WrongNumber">Belgi ýalňyşmy?</string>
+  <string name="DidNotGetTheCode">Kod gelmedimi?</string>
+  <!--signup view-->
+  <string name="YourName">Adyňyz</string>
+  <string name="RegisterText">Adyňyzy we familiýaňyzy sazlaň</string>
+  <!--<string name="RegisterText">Set up your name and picture</string>-->
+  <string name="FirstName">At (hökmany)</string>
+  <string name="LastName">Familiýa (islege bagly)</string>
+  <string name="CancelRegistration">Agza bolmagy beset</string>
+  <!--chats view-->
+  <string name="Settings">Sazlamalar</string>
+  <string name="Contacts">Kişiler</string>
+  <string name="NewGroup">Täze Topar</string>
+  <string name="Yesterday">düýn</string>
+  <string name="NoResult">Netije ýok</string>
+  <string name="NoChats">Heniz söhbet ýok...</string>
+  <string name="WaitingForNetwork">Tora garaşylýar...</string>
+  <string name="Connecting">Baglanylýar...</string>
+  <string name="Updating">Täzelenýär...</string>
+  <string name="NewSecretChat">Täze Pynhan Söhbet</string>
+  <string name="AwaitingEncryption">%s - ulgamda bolmagyna garaşylýar...</string>
+  <string name="EncryptionRejected">Pynhan söhbet besedildi</string>
+  <string name="EncryptionProcessing">Kripto açarlary çalşylýar...</string>
+  <string name="EncryptedChatStartedOutgoing">%s pynhan söhbetiňize goşuldy.</string>
+  <string name="EncryptedChatStartedIncoming">Pynhan söhbete goşuldyňyz.</string>
+  <string name="DeleteChat">Poz we çyk</string>
+  <string name="SelectChat">Söhbet Saýla</string>
+  <!--channels-->
+  <string name="SetAsAdmin">Adminle</string>
+  <string name="DescriptionInfoMega">You can provide an optional description for your group.</string>
+  <string name="LeaveMega">Topardan çyk</string>
+  <string name="DeleteMega">Topari poz</string>
+  <string name="LeaveMegaMenu">Topardan çyk</string>
+  <string name="DeleteMegaMenu">Topari poz</string>
+  <string name="MegaDeleteInfo">Bu topardaki hemme hatlar basylar.</string>
+  <string name="MegaAdminsInfo">You can add administrators to help you manage your group. Tap and hold to remove them.</string>
+  <string name="MegaDeleteAlert">Wait! Deleting this group will remove all members and all messages will be lost. Delete the group anyway?</string>
+  <string name="ActionCreateMega">Topar yaradildy</string>
+  <string name="MegaAddedBy">un1 seni şu topara goşdy</string>
+  <string name="MegaLeaveAlert">Bu topardan çykjakmi?</string>
+  <string name="GroupUserCantAdd">Siz bu ulanyjiny bu topara goşsib bilmezsiňiz</string>
+  <string name="GroupUserAddLimit">Bu topar doly.</string>
+  <string name="GroupUserLeftError">Bu ulanyjy özi topardan çykdi, siz onu yene çagira bilmezsiň.</string>
+  <string name="GroupUserCantAdmin">Sorry, too many adminstrators in this group.</string>
+  <string name="GroupUserCantBot">Sorry, too many bots in this group.</string>
+  <string name="ActionMigrateFromGroup">This group was upgraded to a supergroup</string>
+  <string name="ActionMigrateFromGroupNotify">%1$s was upgraded to a supergroup</string>
+  <string name="NoBlockedGroup">Blocked users are removed from the group and can only come back if invited by an admin. Invite links don\'t work for them.</string>
+  <string name="NewChannel">Täze kanal</string>
+  <string name="EnterChannelName">Kanaliň adi</string>
+  <string name="Comments">Düşündirişler</string>
+  <string name="CommentsInfo">If you enable comments, people will be able to discuss your posts in the channel.</string>
+  <string name="AddMutual">Add contacts to your channel</string>
+  <string name="ChannelUsernameHelp">People can share this link with others and find your channel using Telegram search.</string>
+  <string name="ChannelUsernamePlaceholder">link</string>
+  <string name="ChannelPrivateLinkHelp">People can join your channel by following this link. You can revoke the link any time.</string>
+  <string name="DescriptionPlaceholder">Description</string>
+  <string name="DescriptionInfo">You can provide an optional description for your channel.</string>
+  <string name="ChannelPublic">Public Channel</string>
+  <string name="ChannelPublicInfo">Public channels can be found in search, anyone can join them.</string>
+  <string name="ChannelPrivate">Private Channel</string>
+  <string name="ChannelPrivateInfo">Private channels can only be joined via an invite link.</string>
+  <string name="ChannelLinkTitle">Link</string>
+  <string name="ChannelInviteLinkTitle">Invite Link</string>
+  <string name="ChannelAddMembers">Agza goş</string>
+  <string name="LeaveChannel">Kanaldan çyk</string>
+  <string name="LeaveChannelMenu">Kanaldan çyk</string>
+  <string name="ChannelSettings">@string/Settings</string>
+  <string name="ChannelJoin">JOIN</string>
+  <string name="OpenChannelProfile">Channel info</string>
+  <string name="ChannelBroadcast">Broadcast</string>
+  <string name="ChannelComment">Comment</string>
+  <string name="ShowDiscussion">show comments</string>
+  <string name="ChannelAlertTitle">What is a Channel?</string>
+  <string name="ChannelAlertText">Channels are a new tool for broadcasting your messages to large audiences.</string>
+  <string name="ChannelAlertCreate">CREATE CHANNEL</string>
+  <string name="LinkInUse">Sorry, this name is already taken.</string>
+  <string name="LinkInvalid">Sorry, this name is invalid.</string>
+  <string name="LinkInvalidShort">Channel names must have at least 5 characters.</string>
+  <string name="LinkInvalidLong">The name must not exceed 32 characters.</string>
+  <string name="LinkInvalidStartNumber">Channel names can\'t start with a number.</string>
+  <string name="LinkChecking">Checking name…</string>
+  <string name="LinkAvailable">%1$s elyeterde.</string>
+  <string name="ChannelMembers">Agzalar</string>
+  <string name="ChannelBlockedUsers">@string/BlockedUsers</string>
+  <string name="ChannelAdministrators">Administrators</string>
+  <string name="ChannelDelete">Kanali poz</string>
+  <string name="ChannelDeleteMenu">Delete channel</string>
+  <string name="ChannelDeleteAlert">Wait! Deleting this channel will remove all members and all messages will be lost. Delete the channel anyway?</string>
+  <string name="ChannelLeaveAlert">Are you sure you want to leave the channel?</string>
+  <string name="ChannelDeleteInfo">You will lose all messages in this channel.</string>
+  <string name="ChannelEdit">Edit</string>
+  <string name="ChannelWasPrivateAlert">Please note that if you choose a public link for your channel, anyone will be able to find it in search and join.\n\nDo not create this link if you want your channel to stay private.</string>
+  <string name="ChannelPublicEmptyUsername">Please choose a link for your public channel, so that people can find it in search and share with others.\n\nIf you\'re not interested, we suggest creating a private channel instead.</string>
+  <string name="ActionCreateChannel">@string/ActionCreateMega</string>
+  <string name="ActionChannelChangedPhoto">Kanal surati sazlandy</string>
+  <string name="ActionChannelRemovedPhoto">Kanal surati basirildy</string>
+  <string name="ActionChannelChangedTitle">Kanalyň ady \"un2\"a üytgedy</string>
+  <string name="ChannelPublicLimitReached">Sorry, you have created too many public channels. You can either create a private channel or delete one of your existing channels first.</string>
+  <string name="ChannelModerator">Moderator</string>
+  <string name="ChannelCreator">Bejeren</string>
+  <string name="ChannelEditor">Dolandyryjy</string>
+  <string name="ChannelMute">SESSIZLE</string>
+  <string name="ChannelUnmute">SESLENDIR</string>
+  <string name="ChannelAddAdmin">Dolandyryjy Goş</string>
+  <string name="ChannelInviteViaLink">Invite via Link</string>
+  <string name="ChannelAddUserAdminAlert">Are you sure you want to make %1$s an administrator?</string>
+  <string name="ChannelRemoveUserAdmin">Aýyr</string>
+  <string name="ChannelMembersInfo">Only channel administrators can see this list.</string>
+  <string name="ChannelAdminNotParticipant">This user hasn\'t joined the channel yet. Do you want to invite them?</string>
+  <string name="ChannelLinkInfo">Anyone who has Telegram installed will be able to join your channel by following this link.</string>
+  <string name="ChannelAdminsInfo">You can add administrators to help you manage your channel. Tap and hold to remove admins.</string>
+  <string name="ChannelJoinTo">Şu knala goşsuljagmyň \'%1$s\'?</string>
+  <string name="ChannelCantOpenPrivate">Sorry, this chat is no longer accessible.</string>
+  <string name="ChannelAddTo">Add %1$s to the channel?</string>
+  <string name="ChannelUserLeftError">Sorry, this user decided to leave this channel, so you cannot invite them back here.</string>
+  <string name="ChannelUserCantAdd">Sorry, you can\'t add this user to channels.</string>
+  <string name="ChannelUserCantAdmin">Sorry, too many admins in this channel.</string>
+  <string name="ChannelUserCantBot">Sorry, too many bots in this channel.</string>
+  <string name="ChannelUserAddLimit">Sorry, you can only add the first 200 members to a channel. Note that an unlimited number of people may join via the channel\'s link.</string>
+  <string name="ChannelAddedBy">un1 added you to this channel</string>
+  <string name="ChannelJoined">You joined the channel</string>
+  <string name="ChannelRemoveUser">Remove from channel</string>
+  <string name="ChannelCantSendMessage">Sorry, you can\'t send messages to this channel.</string>
+  <string name="ChannelAddedByNotification">%1$s added you to the channel %2$s</string>
+  <string name="ChannelPhotoEditNotification">Channel %1$s updated photo</string>
+  <string name="ChannelMessageGroupNoText">%1$s sent a message to the channel %2$s</string>
+  <string name="ChannelMessageGroupPhoto">%1$s sent a photo to the channel %2$s</string>
+  <string name="ChannelMessageGroupVideo">%1$s sent a video to the channel %2$s</string>
+  <string name="ChannelMessageGroupContact">%1$s shared a contact in the channel %2$s</string>
+  <string name="ChannelMessageGroupMap">%1$s sent a location to the channel %2$s</string>
+  <string name="ChannelMessageGroupDocument">%1$s sent a file to the channel %2$s</string>
+  <string name="ChannelMessageGroupGif">%1$s sent a GIF to the channel %2$s</string>
+  <string name="ChannelMessageGroupAudio">%1$s sent an audio to the channel %2$s</string>
+  <string name="ChannelMessageGroupSticker">%1$s sent a sticker to the channel %2$s</string>
+  <string name="ChannelMessageNoText">%1$s bir hat iberdy</string>
+  <string name="ChannelMessagePhoto">%1$s bir surat iberdy</string>
+  <string name="ChannelMessageVideo">%1$s bir wideo iberdy</string>
+  <string name="ChannelMessageContact">%1$s posted a contact</string>
+  <string name="ChannelMessageMap">%1$s posted a location</string>
+  <string name="ChannelMessageDocument">%1$s bir faýl iberdy</string>
+  <string name="ChannelMessageGIF">%1$s bir GIF iberdy</string>
+  <string name="ChannelMessageAudio">%1$s bir sesli hat iberdy</string>
+  <string name="ChannelMessageSticker">%1$s bir stiker iberdy</string>
+  <!--broadcasts-->
+  <string name="NewBroadcastList">Täze Ýaýlym Sanawy</string>
+  <string name="EnterListName">Sanaw adyny ýaz</string>
+  <string name="YouCreatedBroadcastList">Täze ýaýlym sanawyny döretdiňiz</string>
+  <string name="KickFromBroadcast">Ýaýlym sanawyndan çykaryň</string>
+  <!--audio view-->
+  <!--documents view-->
+  <string name="SelectFile">Faýl Saýla</string>
+  <string name="FreeOfTotal">%2$s-niň %1$s-si boş</string>
+  <string name="UnknownError">Näbelli ýalňyşlyk</string>
+  <string name="AccessError">Ygtyýar ýalňyşlygy</string>
+  <string name="NoFiles">Heniz hiç hili faýl ýok...</string>
+  <string name="FileUploadLimit">Faýlyň göwrümi %1$s-den uly bolmaly däl</string>
+  <string name="NotMounted">Ýat ýüklenmedik</string>
+  <string name="UsbActive">USB geçirmesi işjeň</string>
+  <string name="InternalStorage">Içki Ambar</string>
+  <string name="ExternalStorage">Daşky Ambar</string>
+  <string name="SystemRoot">Ulgam Düýbi</string>
+  <string name="SdCard">SD Kartasy</string>
+  <!--chat view-->
+  <string name="Invisible">görünmeýän</string>
+  <string name="Typing">ýazýar...</string>
+  <string name="IsTyping">ýazýar...</string>
+  <string name="AreTyping">ýazýarlar...</string>
+  <string name="GotAQuestion">Telegram hakynda\nsoragyňyz barmy?</string>
+  <string name="ChatTakePhoto">Surat al</string>
+  <string name="ChatGallery">Galereýa</string>
+  <string name="ChatLocation">Ýer</string>
+  <string name="ChatVideo">Wideo</string>
+  <string name="NoMessages">Heniz hat gelmändir...</string>
+  <string name="ForwardedMessage">Ugrukdyrylan hat</string>
+  <string name="From">Dan</string>
+  <string name="NoRecent">Ýakyn ýok</string>
+  <string name="Message">Hat</string>
+  <string name="EncryptedPlaceholderTitleIncoming">%s seni gizlin söhbetdeşlige goşulmaga çagyrdy.</string>
+  <string name="EncryptedPlaceholderTitleOutgoing">Sen %s atly kişini gizlin söhbetdeşlige çagyrdyň.</string>
+  <string name="EncryptedDescriptionTitle">Pynhan söhbetler:</string>
+  <string name="EncryptedDescription1">Uçdan-uja kriptolama ulanyň</string>
+  <string name="EncryptedDescription2">Serverlerimizde hiç hili yz galdyrmaň</string>
+  <string name="EncryptedDescription3">Özüni ýok ediji wagt tutujyly</string>
+  <string name="EncryptedDescription4">Ugrukdurmaga rugsat berilmeýär</string>
+  <string name="YouWereKicked">Bu topardan çykaryldyňyz</string>
+  <string name="YouLeft">Bu topardan çykdyňyz</string>
+  <string name="DeleteThisGroup">Bu topari poz</string>
+  <string name="DeleteThisChat">Bu söhbeti pozuň</string>
+  <string name="SlideToCancel">BESETMEK ÜÇIN TAÝDYRYŇ</string>
+  <string name="SaveToDownloads">Indirilenlerde ýatda saklat</string>
+  <string name="ApplyLocalizationFile">Ýerleşim faýlyny ulan</string>
+  <string name="UnsupportedAttachment">Goldanylmaýan sepleme</string>
+  <!--notification-->
+  <string name="MessageLifetimeChanged">%1$s özüni ýok ediji wagt tutujyny %2$s edip sazlady</string>
+  <string name="MessageLifetimeChangedOutgoing">Sen özüni ýok ediji wagt tutujyny %1$s edip sazladyň</string>
+  <string name="MessageLifetimeRemoved">%1$s özüni ýok ediji wagt tutujyny öçürdi</string>
+  <string name="MessageLifetimeYouRemoved">Sen özüni ýok ediji wagt tutujyny öçürdiň</string>
+  <string name="YouHaveNewMessage">Täze hatyňyz bar</string>
+  <string name="NotificationMessageText">%1$s: %2$s</string>
+  <string name="NotificationMessageNoText">%1$s saňa bir hat ugratdy</string>
+  <string name="NotificationMessagePhoto">%1$s saňa bir surat ugratdy</string>
+  <string name="NotificationMessageVideo">%1$s saňa bir wideo ýazgysy ugratdy</string>
+  <string name="NotificationMessageContact">%1$s seň bilen bir kişini paýlaşdy</string>
+  <string name="NotificationMessageMap">%1$s saňa bir ýer ugratdy</string>
+  <string name="NotificationMessageAudio">%1$s saňa bir ses ýazgysy ugratdy</string>
+  <string name="NotificationMessageGroupText">%1$s @ %2$s: %3$s</string>
+  <string name="NotificationMessageGroupNoText">%1$s %2$s toparyna bir hat ugratdy</string>
+  <string name="NotificationMessageGroupPhoto">%1$s %2$s toparyna bir surat ugratdy</string>
+  <string name="NotificationMessageGroupVideo">%1$s %2$s toparyna bir wideo ýazgysy ugratdy</string>
+  <string name="NotificationMessageGroupContact">%1$s %2$s toparynda bir kişi paýlaşdy</string>
+  <string name="NotificationMessageGroupMap">%1$s %2$s toparyna bir ýer ugratdy</string>
+  <string name="NotificationMessageGroupAudio">%1$s %2$s toparyna bir ses ýazgysy ugratdy</string>
+  <string name="NotificationInvitedToGroup">%1$s seni %2$s atly topara çagyrdy</string>
+  <string name="NotificationEditedGroupName">%1$s %2$s toparynyň adyny üýtgetdi</string>
+  <string name="NotificationEditedGroupPhoto">%1$s %2$s toparynyň suratyny üýtgetdi</string>
+  <string name="NotificationGroupAddMember">%1$s %3$s atly kişini %2$s toparyna çagyrdy</string>
+  <string name="NotificationGroupKickMember">%1$s %3$s atly kişini %2$s toparyndan çykardy</string>
+  <string name="NotificationGroupKickYou">%1$s seni %2$s toparyndan çykardy</string>
+  <string name="NotificationGroupLeftMember">%1$s %2$s toparyndan çykdy</string>
+  <string name="NotificationContactJoined">%1$s Telegrama goşuldy!</string>
+  <string name="NotificationContactNewPhoto">%1$s profil suratyny täzeledi</string>
+  <string name="Reply">Jogap ber</string>
+  <string name="ReplyToGroup">%1$s-a jogap ber</string>
+  <!--contacts view-->
+  <string name="SelectContact">Kişi Saýlaň</string>
+  <string name="NoContacts">Heniz hiç kim ýok</string>
+  <string name="YesterdayAt">düýn</string>
+  <string name="Online">ulgamda</string>
+  <string name="LastSeen">soňky görülen wagty</string>
+  <string name="LastSeenDate">soňky görülen wagty</string>
+  <string name="InviteFriends">Dostlary Çagyryň</string>
+  <!--group create view-->
+  <string name="SendMessageTo">Hat ugrat...</string>
+  <string name="EnterGroupNamePlaceholder">Topar adyny ýazyň</string>
+  <string name="GroupName">Topar ady</string>
+  <!--set admins view-->
+  <!--group info view-->
+  <string name="SharedMedia">Paýlaşylan Media</string>
+  <string name="AddMember">Agza goş</string>
+  <string name="DeleteAndExit">Poz we topardan çyk</string>
+  <string name="Notifications">Duýdurmalar</string>
+  <string name="KickFromGroup">Topardan aýyr</string>
+  <!--contact info view-->
+  <string name="ShareContact">Paýlaş</string>
+  <string name="AddContact">Goş</string>
+  <string name="BlockContact">Böwetle</string>
+  <string name="EditContact">Düzet</string>
+  <string name="DeleteContact">Poz</string>
+  <string name="StartEncryptedChat">Gizlin Söhbet Başlat</string>
+  <string name="CreateEncryptedChatError">Bir ýalňyşlyk ýüze çykdy.</string>
+  <string name="EncryptionKey">Kripto açary</string>
+  <string name="MessageLifetime">Özüni Ýoklaýjy Wagt Tutujy</string>
+  <string name="ShortMessageLifetimeForever">Öçük</string>
+  <string name="EncryptionKeyDescription">Bu surat <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> bilen gizlin söhbetdeşligiň kripto açarynyň şekilidir.<![CDATA[<br><br>]]>Eger bu surat <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> atly kişiniň enjamyndaky bilen deň görünýän bolsa, siziň söhbetdeşligiňiz 200%% ygtybarlydyr.<![CDATA[<br><br>]]>telegram.org adresinden has köp maglumat ediniň.</string>
+  <!--usernames-->
+  <!--settings view-->
+  <string name="ResetNotificationsText">Ähli duýdurma sazlamalaryny bellenilen görnüşe täzeden sazlaň.</string>
+  <string name="TextSize">Hatlaryň Tekst Ölçegi</string>
+  <string name="AskAQuestion">Sorag Beriň</string>
+  <string name="EnableAnimations">Janlandyrmalary Işlet</string>
+  <string name="Unblock">Böwetden aç</string>
+  <string name="UnblockText">Ulanyjyny böwetden açmak üçin üstüne basyp saklaň.</string>
+  <string name="NoBlocked">Heniz böwetlenen ulanyjylar ýok</string>
+  <string name="Alert">Duýduryş</string>
+  <string name="MessagePreview">Hat Öňsyny</string>
+  <string name="Sound">Ses</string>
+  <string name="InAppSounds">App-Içi Sesler</string>
+  <string name="InAppVibrate">App-Içi Titreme</string>
+  <string name="Vibrate">Titreme</string>
+  <string name="InAppPreview">App-Içi Öňsyny</string>
+  <string name="ResetAllNotifications">Ähli Duýdurmalary Täzeden Sazla</string>
+  <string name="UndoAllCustom">Hemme kişiler we toparlar üçin ellenen duýdurma sazlamalaryny yzyna al.</string>
+  <string name="NotificationsAndSounds">Duýdurmalar we Sesler</string>
+  <string name="BlockedUsers">Böwetlenen Ulanyjylar</string>
+  <string name="NoSound">Ses ýok</string>
+  <string name="Default">Bellenen</string>
+  <string name="messages_zero">Hat ýok</string>
+
+  <!--cache view-->
+  <!--sessions view-->
+  <!--passcode view-->
+  <!--media view-->
+  <!--map view-->
+  <!--photo gallery view-->
+  <!--password view-->
+  <!--privacy settings-->
+  <string name="PrivacySettings">Privacy and Security</string>
+  <string name="PrivacyTitle">Privacy</string>
+  <string name="PrivacyLastSeen">@string/LastSeen</string>
+  <string name="LastSeenEverybody">Hemme kiş</string>
+  <string name="LastSeenContacts">Kontaktlerim</string>
+  <string name="LastSeenNobody">hiç kim</string>
+  <string name="LastSeenEverybodyMinus">Everybody (-%1$d)</string>
+  <string name="LastSeenContactsPlus">My Contacts (+%1$d)</string>
+  <string name="LastSeenContactsMinus">My Contacts (-%1$d)</string>
+  <string name="LastSeenContactsMinusPlus">My Contacts (-%1$d, +%2$d)</string>
+  <string name="LastSeenNobodyPlus">Nobody (+%1$d)</string>
+  <string name="SecurityTitle">Security</string>
+  <string name="DeleteAccountTitle">Account self-destructs</string>
+  <string name="DeleteAccountIfAwayFor">If you\'re away for</string>
+  <string name="DeleteAccountHelp">If you do not log in at least once within this period, your account will be deleted along with all groups, messages and contacts.</string>
+  <string name="DeleteAccountNowConfirmation">Delete your account?</string>
+  <string name="LastSeenHelp">Change who can see your Last Seen time.</string>
+  <string name="LastSeenTitle">Who can see your Last Seen time?</string>
+  <string name="AddExceptions">Add exceptions</string>
+  <string name="CustomHelp">Important: you won\'t be able to see Last Seen times for people with whom you don\'t share your Last Seen time. Approximate last seen will be shown instead (recently, within a week, within a month).</string>
+  <string name="AlwaysShareWith">Always Share With</string>
+  <string name="NeverShareWith">Never Share With</string>
+  <string name="CustomShareSettingsHelp">These settings will override the values above.</string>
+  <string name="AlwaysShareWithTitle">Always Share</string>
+  <string name="AlwaysShareWithPlaceholder">Always share with users...</string>
+  <string name="NeverShareWithTitle">Never Share</string>
+  <string name="NeverShareWithPlaceholder">Never share with users...</string>
+  <string name="EmpryUsersPlaceholder">Add Users</string>
+  <string name="PrivacyFloodControlError">Sorry, too many requests. Unable to change privacy settings now, please wait.</string>
+  <string name="ClearOtherSessionsHelp">Logs out all devices except for this one.</string>
+  <string name="RemoveFromListText">Tap and hold on user to delete.</string>
+  <!--edit video view-->
+  <!--bot-->
+  <!--button titles-->
+  <string name="Next">Indiki</string>
+  <string name="Back">Yzky</string>
+  <string name="Done">Boldi</string>
+  <string name="Open">Aç</string>
+  <string name="Save">Sakla</string>
+  <string name="Cancel">ýatyr</string>
+  <string name="Close">Bagla</string>
+  <string name="Add">Goş</string>
+  <string name="Edit">Duzet</string>
+  <string name="Send">Iber</string>
+  <string name="Call">Jaň et</string>
+  <string name="Copy">kopi</string>
+  <string name="Delete">Basyr</string>
+  <string name="DeleteAndStop">Basyr we dur</string>
+  <string name="Forward">Ugrat</string>
+  <string name="Retry">Yene başarjak bok</string>
+  <string name="FromCamera">Kameradan</string>
+  <string name="FromGalley">Galeriden</string>
+  <string name="DeletePhoto">Surati poz</string>
+  <string name="Set">Sazla</string>
+  <string name="OK">Bolyar</string>
+  <string name="Crop">GYRK</string>
+  <!--messages-->
+  <string name="ActionKickUser">un1 \"un2\"ni ayyrdy</string>
+  <string name="ActionKickUserYou">un1 seni string</string>
+  <string name="ActionLeftUser">un1 topardan çykdy</string>
+  <string name="ActionRemovedPhoto">un1 topar suratini basyrdy</string>
+  <string name="ActionYouAddUser">Sen \"un2\"ni goşduň</string>
+  <string name="ActionYouChangedPhoto">Sen topar suratini üýtgetdiň</string>
+  <string name="ActionYouChangedTitle">Sen topariň adini \"un2\"a üýtgetdiň</string>
+  <string name="ActionYouCreateGroup">Sen topari yaratdıň</string>
+  <string name="ActionYouKickUser">Sen \"un2\"ni çykardiň</string>
+  <string name="ActionYouLeftUser">topardan çykdiň</string>
+  <string name="ActionCreateGroup">un1 topari yaratdy</string>
+  <string name="ActionInviteYou">You joined the group via invite link</string>
+  <string name="ActionInviteUser">un1 joined the group via invite link</string>
+  <string name="ActionAddUser">un1 \"un2\"ni goşdy</string>
+  <string name="ActionChangedPhoto">un1 topar suratini üýtgetdy</string>
+  <string name="ActionChangedTitle">un1 topariň adini \"un2\"a üýtgetdy</string>
+  <string name="ActionYouRemovedPhoto">Sen topar suratini aýyrdiňiz</string>
+  <string name="ActionAddUserYou">un1 seni goşdy</string>
+  <string name="ActionAddUserSelf">un1 topara gaýdyp geldy</string>
+  <string name="ActionAddUserSelfYou">Sen topara gaýdyp geldiň</string>
+  <string name="UnsupportedMedia">This message is not supported on your version of Telegram. Update the app to view: https://telegram.org/update</string>
+  <string name="AttachPhoto">Surat</string>
+  <string name="AttachVideo">Wideo</string>
+  <string name="AttachGif">GIF</string>
+  <string name="AttachLocation">Yer</string>
+  <string name="AttachContact">Kişi</string>
+  <string name="AttachDocument">ige</string>
+  <string name="AttachSticker">Sticker</string>
+  <string name="AttachAudio">Ses</string>
+  <string name="FromYou">Sen</string>
+  <string name="ActionTakeScreenshootYou">You took a screenshot!</string>
+  <string name="ActionTakeScreenshoot">un1 took a screenshot!</string>
+  <!--Alert messages-->
+  <!--permissions-->
+  <!--Intro view-->
+  <!--plural-->
+  <!--forwarded messages-->
+  <!--date formatters-->
+  <!--update text-->
+</resources>

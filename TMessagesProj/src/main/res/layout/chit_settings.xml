@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- shadow -->
+    <View android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+    <!-- header-->
+    <TextView style="@style/HeaderStyle"
+        android:layout_width="match_parent" android:text="@string/SETTINGS"
+        android:layout_height="38dp" />
+
+    <!-- show tab 2 -->
+    <ir.hamzad.ui.Cells.TextCheckCell
+        android:background="@drawable/item_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- show dot 3 -->
+    <ir.hamzad.ui.Cells.TextCheckCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- default tab 4 -->
+    <ir.hamzad.ui.Cells.TextSettingsCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- show inviter 5 -->
+    <ir.hamzad.ui.Cells.TextCheckCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- shadow -->
+    <View android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="12dp" />
+
+
+    <!-- header ghost -->
+    <TextView style="@style/HeaderStyle"
+        android:layout_width="match_parent" android:text="@string/SETTINGS"
+        android:layout_height="38dp" />
+
+    <!-- ghost mode 8-->
+    <ir.hamzad.ui.Cells.TextCheckCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- typing state 9-->
+    <ir.hamzad.ui.Cells.TextCheckCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

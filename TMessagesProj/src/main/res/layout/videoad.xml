@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <Button
+        android:id="@+id/fin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="خروج"
+        />
+    <Button
+        android:id="@+id/btnShowAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:text="Show Ad"
+        />
+
+    <Button
+        android:id="@+id/btnRequestAd"
+        android:layout_below="@+id/btnShowAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:text="Request Ad"
+        />
+
+    <TextView
+        android:text="تا اخر تبلیغ را تا اخر ببنید ، کارت شارژ 10 هزار تومانی بگیرید"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView3" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:id="@+id/ll"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_margin="6dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:id="@+id/editText" />
+
+    </LinearLayout>
+</RelativeLayout>
